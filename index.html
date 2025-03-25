@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Maker Text Previewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a7866f7057.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>RPG Maker Text Previewer</h1>
+
+        </div>
+        <div class="main-content">
+            <div class="input-section">
+                <h2>Input Text</h2>
+                <p class="description">Paste your RPG Maker color-coded text here:</p>
+                <textarea id="input-text" placeholder="Paste your text here..."></textarea>
+                <div class="color-palette">
+                    <h3>Color Palette</h3>
+                    <div class="color-buttons"></div>
+                </div>
+            </div>
+            <div class="preview-section">
+                <h2>Preview</h2>
+                <div class="theme-toggle">
+                    <span>Light</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="preview-theme-toggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
+                <div id="preview-box"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Made by haruyuki</p>
+            <div class="social-icons">
+                <a href="https://github.com" class="social-icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com" class="social-icon" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://twitch.tv" class="social-icon" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
